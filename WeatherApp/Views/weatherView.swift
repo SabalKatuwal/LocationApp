@@ -16,6 +16,6 @@ struct weatherView: View {
 
 struct weatherView_Previews: PreviewProvider {
     static var previews: some View {
-        weatherView(weather: ResponseBody(coord: <#T##ResponseBody.CoordinatesResponse#>, weather: <#T##[ResponseBody.WeatherResponse]#>, main: <#T##ResponseBody.MainResponse#>, name: <#T##String#>, wind: <#T##ResponseBody.WindResponse#>))
+        weatherView(weather: previewWeather)
     }
 }

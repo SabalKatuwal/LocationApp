@@ -17,7 +17,7 @@ struct ContentView: View {
         VStack {
             if let location = locationManager.location{
                 if let weather = weather {
-                    Text("Weather Data Fetched")
+                    weatherView(weather: weather)
                 } else {
                     loadingView()
                         .task {

@@ -20,6 +20,7 @@
 		A6AEBC792A720DF700C978BF /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AEBC782A720DF700C978BF /* config.swift */; };
 		A6AEBC7B2A73937A00C978BF /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AEBC7A2A73937900C978BF /* ModelData.swift */; };
 		A6AEBC7D2A7394F000C978BF /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = A6AEBC7C2A7394F000C978BF /* weatherData.json */; };
+		A6AEBC812A74E7A800C978BF /* double.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AEBC802A74E7A800C978BF /* double.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		A6AEBC782A720DF700C978BF /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
 		A6AEBC7A2A73937900C978BF /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		A6AEBC7C2A7394F000C978BF /* weatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
+		A6AEBC802A74E7A800C978BF /* double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = double.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		A6AEBC592A6EA6D800C978BF /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				A6AEBC7F2A74E77400C978BF /* Extensions */,
 				A6AEBC782A720DF700C978BF /* config.swift */,
 				A6AEBC722A6FBB9F00C978BF /* Models */,
 				A6AEBC6B2A6EB12500C978BF /* Views */,
@@ -116,6 +119,14 @@
 				A6AEBC732A6FBBDD00C978BF /* ResponseBody.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A6AEBC7F2A74E77400C978BF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A6AEBC802A74E7A800C978BF /* double.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 				A6AEBC6F2A6EDB1200C978BF /* loadingView.swift in Sources */,
 				A6AEBC792A720DF700C978BF /* config.swift in Sources */,
 				A6AEBC7B2A73937A00C978BF /* ModelData.swift in Sources */,
+				A6AEBC812A74E7A800C978BF /* double.swift in Sources */,
 				A6AEBC6D2A6EB1A400C978BF /* welcomeView.swift in Sources */,
 				A6AEBC762A7181FA00C978BF /* weatherView.swift in Sources */,
 			);
